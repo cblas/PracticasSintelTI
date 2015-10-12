@@ -12,18 +12,21 @@
 </head>
 
 <body>
-<g:link controller="persona" action="create" >Crear Persona</g:link>
+<div>
+    <div ><g:link controller="persona" action="create" >Crear Persona</g:link>
+</div>
+<br>
 <br>
 <table>
     <thead>
     <tr>
-        <td>Nombre Persona</td>
-        <td>Apellido Paterno</td>
-        <td>Apellido Materno</td>
-        <td>Correo Electronico</td>
-        <td>Fecha de Nacimiento</td>
-        <td>Edad</td>
-        <td>Descripcion</td>
+        <td><strong>Nombre Persona</strong></td>
+        <td><strong>Apellido Paterno</strong></td>
+        <td><strong>Apellido Materno</strong></td>
+        <td><strong>Correo Electronico</strong></td>
+        <td><strong>Fecha de Nacimiento</strong></td>
+        <td><strong>Edad</strong></td>
+        <td><strong>Descripción</strong></td>
     </tr>
     </thead>
     <tbody>

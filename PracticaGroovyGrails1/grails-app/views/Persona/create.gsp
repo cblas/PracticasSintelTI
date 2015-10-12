@@ -50,7 +50,7 @@
     </dd>
     <br>
         <dd>
-            Descripcion: <g:textField name="descripcion" id="descripcion" value="" />
+            Descripción: <g:textField name="descripcion" id="descripcion" value="" />
         </dd>
     <br>
     <dd>
